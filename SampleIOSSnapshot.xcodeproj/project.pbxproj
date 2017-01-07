@@ -16,6 +16,7 @@
 		9AB5A1C31E20DA6F00270370 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1C21E20DA6F00270370 /* FirstViewController.swift */; };
 		9AB5A1C51E20DA7C00270370 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1C41E20DA7C00270370 /* SecondViewController.swift */; };
 		9AE9B1921E2134D700B1E2FB /* SampleIOSSnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9B1911E2134D700B1E2FB /* SampleIOSSnapshotUITests.swift */; };
+		9AE9B19A1E21398500B1E2FB /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9B1991E21398500B1E2FB /* SnapshotHelper.swift */; };
 		9AFB95181E211B1700B5C7ED /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB95171E211B1700B5C7ED /* R.generated.swift */; };
 		BA0D27B5AB13BF86C399ABD3 /* Pods_SampleIOSSnapshot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A2116935A5F1C2EF8D9770 /* Pods_SampleIOSSnapshot.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		9AE9B18F1E2134D700B1E2FB /* SampleIOSSnapshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleIOSSnapshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE9B1911E2134D700B1E2FB /* SampleIOSSnapshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIOSSnapshotUITests.swift; sourceTree = "<group>"; };
 		9AE9B1931E2134D700B1E2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE9B1991E21398500B1E2FB /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		9AFB95171E211B1700B5C7ED /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 		9AE9B1901E2134D700B1E2FB /* SampleIOSSnapshotUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9AE9B1991E21398500B1E2FB /* SnapshotHelper.swift */,
 				9AE9B1911E2134D700B1E2FB /* SampleIOSSnapshotUITests.swift */,
 				9AE9B1931E2134D700B1E2FB /* Info.plist */,
 			);
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE9B1921E2134D700B1E2FB /* SampleIOSSnapshotUITests.swift in Sources */,
+				9AE9B19A1E21398500B1E2FB /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +554,7 @@
 				9AE9B1981E2134D700B1E2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
