@@ -94,6 +94,9 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+## R.swift
+R.generated.swift
+
 ## Ruby Gems
 .rbenv-gemsets
 vendor/
