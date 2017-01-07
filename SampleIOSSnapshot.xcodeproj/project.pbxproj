@@ -23,7 +23,6 @@
 		0D4D0DE36291C5A48C1BCB8F /* Pods-SampleIOSSnapshot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleIOSSnapshot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleIOSSnapshot/Pods-SampleIOSSnapshot.debug.xcconfig"; sourceTree = "<group>"; };
 		81A2116935A5F1C2EF8D9770 /* Pods_SampleIOSSnapshot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleIOSSnapshot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A990E27F57DCEA7F408BF /* Pods-SampleIOSSnapshot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleIOSSnapshot.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleIOSSnapshot/Pods-SampleIOSSnapshot.release.xcconfig"; sourceTree = "<group>"; };
-		9A75E1301E2116E6001436D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		9A75E1311E2116E6001436D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9A75E1331E2116F5001436D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A75E1351E2116F7001436D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		9AB5A1C01E20DA5D00270370 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9AB5A1C21E20DA6F00270370 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9AB5A1C41E20DA7C00270370 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9AE9B18A1E21298600B1E2FB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		9AFB95171E211B1700B5C7ED /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,7 +278,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9AB5A1B31E20CD5100270370 /* Base */,
-				9A75E1301E2116E6001436D3 /* ja */,
+				9AE9B18A1E21298600B1E2FB /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

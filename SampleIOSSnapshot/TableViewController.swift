@@ -12,6 +12,8 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = NSLocalizedString(R.string.localizable.home_table_view_nav.key, comment: "ホーム")
     }
 
     override func didReceiveMemoryWarning() {

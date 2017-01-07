@@ -1,27 +1,52 @@
 
-/* Class = "UILabel"; text = "Title"; ObjectID = "6dz-uj-dCh"; */
-"6dz-uj-dCh.text" = "Title";
+/* Class = "UILabel"; text = "Go to the First View"; ObjectID = "6dz-uj-dCh"; */
+"6dz-uj-dCh.text" = "画面1へ";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "YVB-Cn-X38"; */
-"YVB-Cn-X38.text" = "Label";
+/* Class = "UILabel"; text = "The Title of the First View"; ObjectID = "YVB-Cn-X38"; */
+"YVB-Cn-X38.text" = "画面1 タイトル";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "hfh-YH-stx"; */
-"hfh-YH-stx.text" = "Label";
+/* Class = "UILabel"; text = "The First Section of the Second View"; ObjectID = "hfh-YH-stx"; */
+"hfh-YH-stx.text" = "画面2 セクション1";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "lJE-fD-p00"; */
-"lJE-fD-p00.text" = "Label";
+/* Class = "UILabel"; text = "The Second Section of the Second View"; ObjectID = "lJE-fD-p00"; */
+"lJE-fD-p00.text" = "画面2 セクション2";
 
-/* Class = "UILabel"; text = "Title"; ObjectID = "m9x-pK-y9S"; */
-"m9x-pK-y9S.text" = "Title";
+/* Class = "UILabel"; text = "Go to the Second View"; ObjectID = "m9x-pK-y9S"; */
+"m9x-pK-y9S.text" = "画面2へ";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "pMy-V5-Q7Y"; */
-"pMy-V5-Q7Y.text" = "Label";
+/* Class = "UILabel"; text = "The description of the first view.
+The description of the first view.
+The description of the first view.
+The description of the first view.
+The description of the first view.
+"; ObjectID = "pMy-V5-Q7Y"; */
+"pMy-V5-Q7Y.text" = "画面1の説明文です。
+画面1の説明文です。
+画面1の説明文です。
+画面1の説明文です。
+画面1の説明文です。";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tbM-Z2-7hU"; */
-"tbM-Z2-7hU.normalTitle" = "Button";
+"tbM-Z2-7hU.normalTitle" = "ボタン";
 
-/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "yXR-Dv-C4V"; */
-"yXR-Dv-C4V.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+/* Class = "UILabel"; text = "The description on the second section of the second view.
+The description on the second section of the second view.
+The description on the second section of the second view.
+The description on the second section of the second view.
+The description on the second section of the second view."; ObjectID = "FsZ-se-A1J"; */
+"FsZ-se-A1J.text" = "画面2 セクション2 の説明文です。
+画面2 セクション2 の説明文です。
+画面2 セクション2 の説明文です。
+画面2 セクション2 の説明文です。
+画面2 セクション2 の説明文です。";
 
-/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "zs3-1c-pY2"; */
-"zs3-1c-pY2.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+/* Class = "UILabel"; text = "The description on the first section of the second view.
+The description on the first section of the second view.
+The description on the first section of the second view.
+The description on the first section of the second view.
+The description on the first section of the second view."; ObjectID = "RWh-6V-zQI"; */
+"RWh-6V-zQI.text" = "画面2 セクション1 の説明文です。
+画面2 セクション1 の説明文です。
+画面2 セクション1 の説明文です。
+画面2 セクション1 の説明文です。
+画面2 セクション1 の説明文です。";

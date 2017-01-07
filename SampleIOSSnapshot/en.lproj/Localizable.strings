@@ -5,3 +5,12 @@
   Created by Yukie Hori on 2017/01/07.
   Copyright © 2017年 moko. All rights reserved.
 */
+
+/* ホーム */
+"home_table_view_nav" = "Home";
+
+/* 画面1 */
+"first_view_nav" = "First View";
+
+/* 画面2 */
+"second_view_nav" = "Second View";
