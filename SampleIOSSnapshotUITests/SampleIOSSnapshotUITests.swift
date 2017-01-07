@@ -14,7 +14,10 @@ class SampleIOSSnapshotUITests: XCTestCase {
         super.setUp()
         
         continueAfterFailure = false
-        XCUIApplication().launch()
+        
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
     }
     
     override func tearDown() {
@@ -23,11 +26,19 @@ class SampleIOSSnapshotUITests: XCTestCase {
     
     func testExample() {
         let app = XCUIApplication()
+        
         let tablesQuery = app.tables
+        snapshot("home")
+        
         tablesQuery.staticTexts["Go to the First View"].tap()
+        snapshot("first_view")
         app.buttons["Button"].tap()
+        
         app.navigationBars["First View"].buttons["Home"].tap()
+        
         tablesQuery.staticTexts["Go to the Second View"].tap()
+        snapshot("second view")
+        
         app.navigationBars["Second View"].buttons["Home"].tap()
         
     }
