@@ -96,3 +96,5 @@ xcuserdata/
 
 ## Ruby Gems
 .rbenv-gemsets
+vendor/
+.bundle/
