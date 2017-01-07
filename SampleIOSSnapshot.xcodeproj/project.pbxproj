@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9AB5A1AF1E20CD5100270370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1AE1E20CD5100270370 /* AppDelegate.swift */; };
-		9AB5A1B11E20CD5100270370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1B01E20CD5100270370 /* ViewController.swift */; };
 		9AB5A1B41E20CD5100270370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5A1B21E20CD5100270370 /* Main.storyboard */; };
 		9AB5A1B61E20CD5100270370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5A1B51E20CD5100270370 /* Assets.xcassets */; };
 		9AB5A1B91E20CD5100270370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5A1B71E20CD5100270370 /* LaunchScreen.storyboard */; };
+		9AB5A1C11E20DA5D00270370 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1C01E20DA5D00270370 /* TableViewController.swift */; };
+		9AB5A1C31E20DA6F00270370 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1C21E20DA6F00270370 /* FirstViewController.swift */; };
+		9AB5A1C51E20DA7C00270370 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5A1C41E20DA7C00270370 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AB5A1AB1E20CD5100270370 /* SampleIOSSnapshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIOSSnapshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB5A1AE1E20CD5100270370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AB5A1B01E20CD5100270370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AB5A1B31E20CD5100270370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB5A1B51E20CD5100270370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB5A1B81E20CD5100270370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB5A1BA1E20CD5100270370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB5A1C01E20DA5D00270370 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9AB5A1C21E20DA6F00270370 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9AB5A1C41E20DA7C00270370 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9AB5A1AE1E20CD5100270370 /* AppDelegate.swift */,
-				9AB5A1B01E20CD5100270370 /* ViewController.swift */,
 				9AB5A1B21E20CD5100270370 /* Main.storyboard */,
 				9AB5A1B51E20CD5100270370 /* Assets.xcassets */,
 				9AB5A1B71E20CD5100270370 /* LaunchScreen.storyboard */,
 				9AB5A1BA1E20CD5100270370 /* Info.plist */,
+				9AB5A1C01E20DA5D00270370 /* TableViewController.swift */,
+				9AB5A1C21E20DA6F00270370 /* FirstViewController.swift */,
+				9AB5A1C41E20DA7C00270370 /* SecondViewController.swift */,
 			);
 			path = SampleIOSSnapshot;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB5A1B11E20CD5100270370 /* ViewController.swift in Sources */,
+				9AB5A1C51E20DA7C00270370 /* SecondViewController.swift in Sources */,
+				9AB5A1C31E20DA6F00270370 /* FirstViewController.swift in Sources */,
 				9AB5A1AF1E20CD5100270370 /* AppDelegate.swift in Sources */,
+				9AB5A1C11E20DA5D00270370 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
