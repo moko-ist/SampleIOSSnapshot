@@ -93,3 +93,6 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+## Ruby Gems
+.rbenv-gemsets
