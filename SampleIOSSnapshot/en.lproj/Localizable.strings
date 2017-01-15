@@ -6,11 +6,48 @@
   Copyright © 2017年 moko. All rights reserved.
 */
 
-/* ホーム */
-"home_table_view_nav" = "Home";
+"intro_title" = "Welcome to the TODO application!";
+"intro_description" = "The TODO application makes it simple to track and manage your tasks. Let's enjoy your works!";
+"intro_button" = "Login";
 
-/* 画面1 */
-"first_view_nav" = "First View";
+"login_textfield_01" = "mail address";
+"login_textfield_02" = "password";
+"login_nav_button" = "login";
 
-/* 画面2 */
-"second_view_nav" = "Second View";
+"todo_tab_title" = "Todo";
+"todo_nav_title" = "Todo";
+
+"summary_tab_title" = "Summary";
+"summary_nav_title" = "Summary";
+
+"setting_tab_title" = "Settings";
+"setting_nav_title" = "Settings";
+
+"account_cell_endat_title" = "Period of use";
+
+"setting_cell_help_title" = "Help";
+"setting_cell_privacypolicy_title" = "Privacy Policy";
+"setting_cell_termsofservice_title" = "Terms of Service";
+"setting_cell_version_title" = "Version";
+
+"logout_cell_logout_title" = "Logout";
+
+"calendar_filename" = "calendar_en";
+
+"todo_detail_tag_index" = "Tag";
+"todo_detail_tag_detail" = "Shopping";
+
+"todo_detail_limitdate_index" = "Due Date";
+
+"todo_detail_reminder_index" = "Reminder";
+"todo_detail_reminder_detail" = "Remind me a day in advance";
+
+"todo_detail_createdat_index" = "Date of creation";
+
+"todo_detail_delete_index" = "Delete";
+
+"todo1" = "Purchase cleaning goods";
+"todo2" = "Cleaning my house";
+"todo3" = "Plan to travel";
+"todo4" = "Homework";
+"todo5" = "Recipe";

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SSF-41-ggk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Summary View Controller-->
+        <scene sceneID="LIf-lg-gpX">
+            <objects>
+                <viewController id="Wab-ek-kWd" customClass="SummaryViewController" customModule="SampleIOSSnapshot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SGB-VO-258"/>
+                        <viewControllerLayoutGuide type="bottom" id="N3m-op-8I2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2uU-NZ-z50">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uLy-Og-ed4">
+                                <rect key="frame" x="37" y="94" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="9cH-4G-EZt"/>
+                                    <constraint firstAttribute="height" constant="300" id="iGu-C8-jlb"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4T-3z-g6j">
+                                <rect key="frame" x="30" y="424" width="315" height="243"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="I4T-3z-g6j" secondAttribute="trailing" constant="30" id="Nly-pU-V4u"/>
+                            <constraint firstItem="uLy-Og-ed4" firstAttribute="top" secondItem="SGB-VO-258" secondAttribute="bottom" constant="30" id="OPL-S2-Gpw"/>
+                            <constraint firstItem="N3m-op-8I2" firstAttribute="top" secondItem="I4T-3z-g6j" secondAttribute="bottom" id="Qll-b7-LnA"/>
+                            <constraint firstItem="I4T-3z-g6j" firstAttribute="leading" secondItem="2uU-NZ-z50" secondAttribute="leading" constant="30" id="a5e-Sg-kuk"/>
+                            <constraint firstItem="uLy-Og-ed4" firstAttribute="centerX" secondItem="2uU-NZ-z50" secondAttribute="centerX" id="icI-Gr-hhv"/>
+                            <constraint firstItem="I4T-3z-g6j" firstAttribute="top" secondItem="uLy-Og-ed4" secondAttribute="bottom" constant="30" id="zUR-6N-wIM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QmY-Hl-AEy"/>
+                    <connections>
+                        <outlet property="imageView" destination="uLy-Og-ed4" id="2Xn-Rc-Mb6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N8C-It-16k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1431.2" y="281.10944527736132"/>
+        </scene>
+        <!--Default Navigation Controller-->
+        <scene sceneID="urH-GA-uVG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SSF-41-ggk" customClass="DefaultNavigationController" customModule="SampleIOSSnapshot" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1y8-fo-cUh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wab-ek-kWd" kind="relationship" relationship="rootViewController" id="qqq-vx-Xin"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tRK-Oz-ljZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="281.10944527736132"/>
+        </scene>
+    </scenes>
+</document>

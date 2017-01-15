@@ -16,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // navigation bar
+        let defaultUINavigationBarAppearance = UINavigationBar.appearance(whenContainedInInstancesOf: [DefaultNavigationController.self])
+        defaultUINavigationBarAppearance.isTranslucent = false
+        defaultUINavigationBarAppearance.barTintColor = UIColor.todo.backgroundBlue
+        defaultUINavigationBarAppearance.setBackgroundImage(UIImage(), for: .default)
+        defaultUINavigationBarAppearance.shadowImage = UIImage()
+        defaultUINavigationBarAppearance.tintColor = UIColor.todo.titleWhite
+        defaultUINavigationBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.todo.titleWhite]
+        
+        // status bar
+        guard let statusBarWindow = UIApplication.shared.value(forKey: "statusBarWindow") as? UIView else {
+            return true
+        }
+        let statusBar = statusBarWindow.subviews[0] as UIView
+        statusBar.backgroundColor = UIColor.todo.backgroundBlue
+        
         return true
     }
 

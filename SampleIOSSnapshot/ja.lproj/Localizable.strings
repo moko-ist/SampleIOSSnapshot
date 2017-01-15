@@ -6,11 +6,50 @@
   Copyright © 2017年 moko. All rights reserved.
 */
 
-/* ホーム */
-"home_table_view_nav" = "ホーム";
+"intro_title" = "TODOアプリへようこそ";
+"intro_description" = "TODOアプリはシンプルなタスク管理ツールです。";
+"intro_button" = "ログインする";
 
-/* 画面1 */
-"first_view_nav" = "画面1";
+"login_textfield_01" = "メールアドレス";
+"login_textfield_02" = "パスワード";
+"login_nav_button" = "ログインする";
 
-/* 画面2 */
-"second_view_nav" = "画面2";
+"todo_tab_title" = "TODO";
+"todo_nav_title" = "TODO";
+
+"summary_tab_title" = "サマリ";
+"summary_nav_title" = "サマリ";
+
+"setting_tab_title" = "設定";
+"setting_nav_title" = "設定";
+
+"account_cell_endat_title" = "利用期間";
+
+"setting_cell_help_title" = "ヘルプ";
+"setting_cell_privacypolicy_title" = "プライバシーポリシー";
+"setting_cell_termsofservice_title" = "利用規約";
+"setting_cell_version_title" = "バージョン";
+
+"logout_cell_logout_title" = "ログアウト";
+
+"calendar_filename" = "calendar_ja";
+
+
+"todo_detail_tag_index" = "タグ";
+"todo_detail_tag_detail" = "買い物";
+
+"todo_detail_limitdate_index" = "期限";
+
+"todo_detail_reminder_index" = "リマインダー";
+"todo_detail_reminder_detail" = "1日前に通知する";
+
+"todo_detail_createdat_index" = "作成日時";
+
+"todo_detail_delete_index" = "削除する";
+
+
+"todo1" = "掃除用品の買い出し";
+"todo2" = "掃除";
+"todo3" = "旅行の計画";
+"todo4" = "宿題";
+"todo5" = "レシピ";

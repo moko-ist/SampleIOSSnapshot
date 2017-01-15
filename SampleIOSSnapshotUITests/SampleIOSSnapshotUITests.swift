@@ -26,21 +26,16 @@ class SampleIOSSnapshotUITests: XCTestCase {
     
     func testExample() {
         let app = XCUIApplication()
+        snapshot("intro")
         
-        let tablesQuery = app.tables
-        snapshot("home")
+        app.buttons["Login"].tap()
+        snapshot("login")
         
-        tablesQuery.staticTexts["Go to the First View"].tap()
-        snapshot("first_view")
-        app.buttons["Button"].tap()
+        app.navigationBars["SampleIOSSnapshot.LoginTableView"].buttons["login"].tap()
+        snapshot("todo")
         
-        app.navigationBars["First View"].buttons["Home"].tap()
-        
-        tablesQuery.staticTexts["Go to the Second View"].tap()
-        snapshot("second view")
-        
-        app.navigationBars["Second View"].buttons["Home"].tap()
-        
+        app.tabBars.buttons["Settings"].tap()
+        snapshot("settings")
     }
     
 }
