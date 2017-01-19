@@ -16,6 +16,7 @@ class IntroViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         localize()
+        accessibility()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,5 +27,9 @@ class IntroViewController: UIViewController {
         index.text = NSLocalizedString(R.string.localizable.intro_title.key, comment: "")
         desc.text = NSLocalizedString(R.string.localizable.intro_description.key, comment: "")
         button.setTitle(NSLocalizedString(R.string.localizable.intro_button.key, comment: ""), for: .normal)
+    }
+    
+    private func accessibility() {
+        button.accessibilityIdentifier = "intro_button"
     }
 }

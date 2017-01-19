@@ -20,6 +20,7 @@ class LoginTableViewController: UITableViewController {
         self.navigationItem.leftBarButtonItem = backButton
         
         let loginButton = UIBarButtonItem(title: NSLocalizedString(R.string.localizable.login_nav_button.key, comment: ""), style: .plain, target: self, action: #selector(LoginTableViewController.login(_:)))
+        loginButton.accessibilityIdentifier = "login_nav_button"
         self.navigationItem.rightBarButtonItem = loginButton
         
         localize()
