@@ -24,7 +24,7 @@ class SampleIOSSnapshotUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testSnapshot() {
         let app = XCUIApplication()
         snapshot("intro")
 
